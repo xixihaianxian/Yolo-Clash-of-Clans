@@ -1,0 +1,13 @@
+train: E:\jupyter_noterbookProject\COCyolo\train\images
+val: E:\jupyter_noterbookProject\COCyolo\valid\images
+test: E:\jupyter_noterbookProject\COCyolo\test\images
+
+nc: 16
+names: ['AD', 'AirSweeper', 'BombTower', 'Canon', 'ClanCastle', 'Eagle', 'Inferno', 'KingPad', 'Mortar', 'QueenPad', 'RcPad', 'Scattershot', 'TH13', 'WardenPad', 'WizzTower', 'Xbow']
+
+roboflow:
+  workspace: personal-2rv35
+  project: clash_of_clans-7n0sd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/personal-2rv35/clash_of_clans-7n0sd/dataset/1
